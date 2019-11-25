@@ -1,0 +1,92 @@
+
+img, a:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    grid-area: navbar;
+    background: white;
+    border: 1px solid #D6D6D6;
+    font-size: 15px;
+    color: #252525;
+    border-top: none;
+    border-bottom: none;
+    nav {
+        padding: 15px 0 0 12px;
+        a {
+            text-decoration: none;
+            color: #252525;
+            div {
+                display: flex;
+                padding: 8px;
+                margin-top: 10px;
+                align-items: center;
+                &:hover {
+                    padding: 8px;
+                    margin-top: 10px;
+                    align-items: center;
+                    background: #06ACDA;
+                    transition: .3s;
+                    color: white;
+                }
+            }
+            &:nth-child(1) img {
+                width: 21px;
+                height: 21px;
+                margin-right: 15px;
+            }
+            &:nth-child(2) img {
+                width: 23px;
+                height: 23px;
+                margin-right: 13px;
+            }
+            &:nth-child(3) img {
+                width: 18px;
+                height: 18px;
+                margin-right: 19px;
+            }
+            &:nth-child(4) img {
+                width: 23px;
+                height: 23px;
+                margin-right: 14px;
+            }
+            &:nth-child(5) img {
+                width: 18px;
+                height: 18px;
+                margin-right: 20px;
+            }
+            &:nth-child(6) img,
+            &:nth-child(7) img,
+            &:nth-child(8) img,
+            &:nth-child(9) img,
+            &:nth-child(10) img {
+                width: 21px;
+                height: 21px;
+                margin-right: 18px;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

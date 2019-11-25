@@ -1,0 +1,65 @@
+
+
+button, img:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    margin: 10px 0 0 10px;
+    width: 100%;
+    .profileBlock {
+        img {
+            width: 200px;
+        }
+        div  {
+            text-align: center;
+            font: 25px Helvetica;
+        }
+    }
+    .messageBlock  {
+        width: 100%;
+        margin-left: 20px;
+        .message  {
+            padding: 20px 50px;
+            background: lightgreen;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+            font: 15px Helvetica;
+            width: 30%;
+            word-wrap: break-word;
+        }
+        textarea  {
+            width: 48%;
+            height: 50px;
+            font-size: 14px;
+        }
+        div {
+            button {
+                width: 100px;
+                height: 30px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

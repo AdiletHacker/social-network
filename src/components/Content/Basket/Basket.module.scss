@@ -1,0 +1,59 @@
+
+
+
+.wrapper {
+    aside {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+        border-top: 1px dashed #DDDDDD;
+        div {
+            width: 30%;
+            height: 230px;
+            margin: 10px 10px 0 10px;
+            padding-top: 10px;
+            border: 1px solid #EEEEEE;
+            border-radius: 10px;
+            text-align: center;
+            opacity: 0.6;
+            &:hover {
+                width: 30%;
+                height: 230px;
+                margin: 10px 10px 0 10px;
+                padding-top: 10px;
+                transition: ease .250s;
+                border: 1px solid #EEEEEE;
+                border-radius: 10px;
+                text-align: center;
+                opacity: 1;
+            }
+            img {
+                width: 85%;
+                border-radius: 4px;
+                &:hover {
+                    width: 85%;
+                    border-radius: 4px;
+                    padding-top: 10px;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

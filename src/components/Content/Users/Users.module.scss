@@ -1,0 +1,48 @@
+
+
+.wrapper {
+    #pagButton {
+        margin: 20px 0;
+
+        &.currentPage {
+            background: lightskyblue;
+        }
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        &.userBlock {
+            margin-left: 25px;
+            margin-top: 30px;
+            font: 17px Helvetica;
+            width: 150px;
+
+            img {
+                width: 150px;
+            }
+
+            div {
+                margin-top: 5px;
+            }
+
+            button {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

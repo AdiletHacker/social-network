@@ -1,0 +1,43 @@
+
+
+.mainApp {
+  display: grid;
+  grid-template-rows: 65px;
+  grid-template-columns: 240px 1fr;
+
+  grid-template-areas:
+  'header header'
+  'navbar content';
+
+  width: 990px;
+  margin: 0 auto 100px auto;
+  box-shadow: 0 0 8px #D6D6D6;
+}
+
+.content {
+  grid-area: content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
