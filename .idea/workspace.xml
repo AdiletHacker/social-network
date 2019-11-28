@@ -2,49 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4542f0e-c150-4ee2-9aff-5214d9cad5cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/lesson-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Others/Preloader/Preloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Others/Preloader/Preloaderr.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/DAL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/redux-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Basket/Basket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Basket/Basket.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Friends/Friends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Friends/Friends.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Login/Login.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/PersonalAcc/PersonalAcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/PersonalAcc/PersonalAcc.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Selected/Selected.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Selected/Selected.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Store/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Store/Store.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Users/Users.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/first-web-site-on-job.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Store/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Store/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +29,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -80,18 +49,6 @@
       <recent name="C:\Users\ADIKG\.WebStorm2019.2\REACT\lesson-project\src\components\Content" />
       <recent name="C:\Users\ADIKG\.WebStorm2019.2\REACT\lesson-project\src\Store" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -110,6 +67,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,8 +94,27 @@
       <workItem from="1574140272771" duration="6471000" />
       <workItem from="1574324836881" duration="19921000" />
       <workItem from="1574674572778" duration="5042000" />
-      <workItem from="1574686948804" duration="456000" />
+      <workItem from="1574686948804" duration="7249000" />
+      <workItem from="1574774631396" duration="626000" />
+      <workItem from="1574777437535" duration="15000" />
+      <workItem from="1574790002892" duration="35000" />
+      <workItem from="1574791178234" duration="31000" />
+      <workItem from="1574791259330" duration="16000" />
+      <workItem from="1574791540140" duration="14000" />
+      <workItem from="1574791748729" duration="10000" />
+      <workItem from="1574792165268" duration="20000" />
+      <workItem from="1574792557084" duration="11000" />
+      <workItem from="1574792831680" duration="29000" />
+      <workItem from="1574917894906" duration="808000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding main project.">
+      <created>1574687651559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574687651559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +162,9 @@
         <option value="1" />
       </set>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding main project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding main project." />
   </component>
 </project>

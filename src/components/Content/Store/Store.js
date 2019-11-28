@@ -6,18 +6,16 @@ import {setToBasket} from "../../../Store/store";
 
 let Store = (props) => {
 
-    let [products] = useState([ ...props.storeData ]);
+    const [products] = useState([ ...props.storeData ]);
     products.splice(25);
 
     return <div className={s.wrapper}>
         <aside>Интернет-магазин для партнеров</aside>
 
         <main>{products.map(item => <div key={item.id}>
-
                 <img src={item.thumbnailUrl} alt=""/>
                 <article>{item.id}</article>
                 <button onClick={() => props.setToBasket(item)}>В корзину</button>
-
             </div>
         )}</main>
 

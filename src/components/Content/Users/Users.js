@@ -21,7 +21,7 @@ let Users = (props) => {
 
     const userClick = id => {
         props.getProfile(id);
-        return props.history.push(`/structure`);
+        return props.history.push(`/selected`);
     };
 
     return <div className={s.wrapper}>

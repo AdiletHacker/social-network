@@ -15,8 +15,9 @@ import Selected from "./components/Content/Selected/Selected";
 import Friends from "./components/Content/Friends/Friends";
 import {getProducts} from "./Store/store";
 
-let App = (props) => {
 
+
+let App = (props) => {
   useEffect(() => {
     props.getProducts();
     props.getLogin();
