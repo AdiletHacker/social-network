@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import s from './Users.module.scss';
 import {connect} from "react-redux";
 import {getCurrentPage, getUsers, setFriends} from "../../../Store/users";
-import userIcon from "../../../user-icon.png"
+import userIcon from "../../../Others/user-icon.png"
 import {getProfile} from "../../../Store/auth";
 import {Preloader} from "../../../Others/Preloader/Preloader";
 

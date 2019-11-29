@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import s from './Selected.module.scss';
 import {connect} from "react-redux";
-import userIcon from "../../../user-icon.png";
+import userIcon from "../../../Others/user-icon.png";
 
 
 const Selected = (props) => {

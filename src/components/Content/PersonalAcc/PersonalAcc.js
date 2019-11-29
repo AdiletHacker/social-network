@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import s from './PersonalAcc.module.scss';
 import {connect} from "react-redux";
-import myPhoto from "../../../my-official-photo.jpg"
+import myPhoto from "../../../Others/my-official-photo.jpg"
 
 
 let PersonalAcc = (props) => {

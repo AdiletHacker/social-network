@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Preloaderr.module.scss';
-import preloader from "../../preloader.gif";
+import preloader from "../preloader.gif";
 
 
 

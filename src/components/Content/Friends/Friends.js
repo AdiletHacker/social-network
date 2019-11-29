@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import s from './Friends.module.scss';
 import {connect} from "react-redux";
-import userIcon from "../../../user-icon.png";
+import userIcon from "../../../Others/user-icon.png";
 import {deleteFriend} from "../../../Store/users";
 
 let Friends = (props) => {
