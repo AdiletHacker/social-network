@@ -11,7 +11,7 @@ const initialState = {
     users: [],
     totalCount: null,
     currentPage: 1,
-    pageSize: 50,
+    pageSize: 70,
     isLoading: false,
     friends: [],
 };

@@ -8,6 +8,13 @@ import {Preloader} from "../../../Others/Preloader/Preloader";
 
 
 let Users = (props) => {
+    const [inputValue, setInputValue] = useState('');
+
+    const searchProducts = props.users.filter(user => {
+        const name = user.name.toLowerCase();
+        const value = inputValue.toLowerCase();
+        return name.indexOf(value) !== -1;
+    });
 
     useEffect(() => {
         props.getUsers(props.currentPage, props.pageSize);
@@ -15,7 +22,7 @@ let Users = (props) => {
 
     const pagesCount = Math.ceil(props.totalCount / props.pageSize);
     const pages = [];
-    for (let i = 1; i < pagesCount; i++) {
+    for (let i = 1; i <= pagesCount; i++) {
         pages.push(i)
     }
 
@@ -26,11 +33,12 @@ let Users = (props) => {
 
     return <div className={s.wrapper}>
         { props.isLoading ? <Preloader /> : undefined }
+        <input className={s.searchInput} value={inputValue} onChange={e => setInputValue(e.target.value)} placeholder=' Find user' />
 
-        { pages.map(page => <button id={s.pagButton} onClick={() => props.getCurrentPage(page)} className=
-            {props.currentPage === page && s.currentPage} key={page}>{page}</button>) }
+        <div className={s.buttons}>{ pages.map(page => <button id={s.pagButton} onClick={() => props.getCurrentPage(page)} className=
+            {props.currentPage === page && s.currentPage} key={page}>{page}</button>) }</div>
 
-        <main>{ props.users.map(user => <div className={s.userBlock} key={user.id}>
+        <main>{ searchProducts.map(user => <div className={s.userBlock} key={user.id}>
             <div onClick={() => userClick(user.id)}><img src={ user.photos.small || userIcon } alt=""/></div>
             <div>{ user.id }</div>
             <div>{ user.name }</div>
